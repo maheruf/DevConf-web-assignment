@@ -104,18 +104,20 @@ ul li a {
 
 .speakers {
     text-align: center;
-    padding: 60px 20px;
+    padding: 20px 8px;
 }
 
 .speakers h2{
-    font-size: 40px;
-    margin-bottom: 35px;
+    font-size: 56px;
+    font-weight: 700;
+    color: #000102;
+    margin-bottom: 30px;
 }
 
 .speakers-grid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 40px;
+    gap: 32px;
 }
 
 .speaker-card{
@@ -130,20 +132,28 @@ ul li a {
 }
 
 .speaker-info{
-    padding: 5px 30px;
+    padding: 8px 35px;
     text-align: left;
 }
 
-.text-color-category {
+.category {
     color: #2563EB;
     font-weight: 600;
     font-size: 12px;
-    margin-bottom: 12px;
+    margin-top: 5px;
 }
 
-.text-color-role {
-    color: #555555;
+.name {
+    color: #0D1B2A;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.role {
+    color: #575757;
     font-size: 14px;
+    margin-top: 8px;
 }
     
 /* Speaker section css end */
