@@ -99,3 +99,22 @@ ul li a {
 }
 
 /* hero section css end */
+
+/* Speaker section css start */
+
+.speakers {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.speakers h2{
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.speakers-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+}
+
