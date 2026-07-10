@@ -5,7 +5,7 @@
 
 /* Common styles */
 
-.header-content{
+.container{
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -69,6 +69,7 @@
     color: white;
     max-width: 600px;
     padding: 0 62px;
+    gap: 30px 60px
 }
     
 
@@ -76,13 +77,11 @@
     font-size: 62px;
     font-weight: 600;
     max-width: 700px;
-    margin-bottom: 85px;
 }
 
 .hero-container p{
     font-size: 19px;
     font-weight: 400;
-    margin-bottom: 70px;
     max-width: 650px;
     color: rgb(224, 220, 220);
 }
@@ -95,7 +94,6 @@
     padding: 25px 78px;
     border-radius: 12px;
     font-size: 23px;
-    margin-top: 388px;
 }
 
 /* hero section css end */
@@ -104,7 +102,7 @@
 
 .speakers {
     text-align: center;
-    padding: 20px 8px;
+    padding: 80px 100px 120px;
 }
 
 .speakers h2{
@@ -158,6 +156,19 @@
 /* Speaker section css end */
 
 /* Pricing section css start */
+
+.pricing-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D9D9D9;
+}
+
 .common-btn-pricing {
+    padding: 5px 15px;
+    border-radius: 12px;
+    font-size: 12px;
     
 }
+/* Pricing section css end */
