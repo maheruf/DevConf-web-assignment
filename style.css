@@ -140,20 +140,20 @@ ul li a {
     color: #2563EB;
     font-weight: 600;
     font-size: 12px;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 
 .name {
     color: #0D1B2A;
     font-weight: 600;
     font-size: 20px;
-    margin-bottom: 8px;
+    margin: 5px;
 }
 
 .role {
     color: #575757;
     font-size: 14px;
-    margin-top: 8px;
+    margin-top: 6px;
 }
     
 /* Speaker section css end */
