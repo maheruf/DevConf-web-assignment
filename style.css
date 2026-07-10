@@ -118,3 +118,32 @@ ul li a {
     gap: 40px;
 }
 
+.speaker-card{
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.speaker-card img{
+    width: 100%;
+    display: block
+}
+
+.speaker-info{
+    padding: 5px 30px;
+    text-align: left;
+}
+
+.text-color-category {
+    color: #2563EB;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.text-color-role {
+    color: #555555;
+    font-size: 14px;
+}
+    
+/* Speaker section css end */
