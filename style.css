@@ -32,7 +32,7 @@
         font-size: 16px;
     }
 
-ul {
+.nav-ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +41,7 @@ ul {
     gap: 38px;
 }
 
-ul li a {
+.nav-ul a {
     text-decoration: none;
     color: #757575;
 }
@@ -156,3 +156,8 @@ ul li a {
 }
     
 /* Speaker section css end */
+
+/* Pricing section css start */
+.common-btn-pricing {
+    
+}
