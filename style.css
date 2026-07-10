@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Common styles */
+
+.header-content{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.common-btn{
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Navbar css start */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.nav-btn {
+        padding: 13px 30px;
+        border-radius: 12px;
+        font-size: 16px;
+    }
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    list-style: none;
+    gap: 38px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #757575;
+}
+
+/* Navbar css end */
+
+/* hero section css start */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    max-width: 600px;
+    padding: 0 62px;
+}
+    
+
+.hero-container h2{
+    font-size: 62px;
+    font-weight: 600;
+    max-width: 700px;
+    margin-bottom: 85px;
+}
+
+.hero-container p{
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 70px;
+    max-width: 650px;
+    color: rgb(224, 220, 220);
+}
+
+.italic {
+    font-style: italic;
+}
+
+.hero-btn{
+    padding: 25px 78px;
+    border-radius: 12px;
+    font-size: 23px;
+    margin-top: 388px;
+}
+
+/* hero section css end */
