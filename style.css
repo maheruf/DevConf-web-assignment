@@ -56,7 +56,7 @@ body {
 /* Hero Section CSS Start */
 .hero {
     display: flex;
-    align-items:flex-start;
+    align-items: center;
     justify-content: center;
     padding-top: 105px;
     background-image: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url(./assets/banner.jpg);
@@ -79,7 +79,7 @@ body {
 }
     
 
-.hero-container h2{
+.hero-container h1 {
     font-size: 62px;
     font-weight: 800;
     line-height: 1.05;
@@ -307,6 +307,112 @@ hr {
     list-style-position: inside;
 }
 /* Pricing Section CSS End */
+
+/* AI Generated CSS style for Faq section Start */
+
+/* Section & Container Setup */
+    .faq-section {
+      background-color: white;
+      font-family: 'Inter', sans-serif;
+      padding: 80px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .faq-section h2 {
+      color: #0D1B2A;
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-top: 0;
+      margin-bottom: 48px;
+      text-align: center;
+    }
+
+    .faq-container {
+      width: 100%;
+      max-width: 800px;
+    }
+
+    /* Details Wrapper */
+    details {
+      margin-bottom: 8px;
+    }
+
+    /* Summary / Clickable Row */
+    summary {
+      list-style: none; /* Hides default triangle in Firefox */
+      padding: 16px;
+      font-weight: 600;
+      color: #0D1B2A;
+      font-size: 1.125rem;
+      cursor: pointer;
+      border-bottom: 1px solid #E5E7EB;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background-color 0.2s ease;
+    }
+
+    /* Hides default triangle in WebKit (Chrome/Safari) */
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    /* Hover effect for better UX */
+    summary:hover {
+      background-color: #F3F4F6;
+      border-radius: 6px;
+    }
+
+    /* Custom Plus Indicator */
+    summary::after {
+      content: '+';
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: #0D1B2A;
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    /* Custom Minus Indicator & Open State */
+    details[open] summary::after {
+      content: '−'; /* En dash for a cleaner minus sign */
+      transform: rotate(180deg);
+      color: #575757;
+    }
+
+    /* Remove bottom border when open for a cleaner flow into the text */
+    details[open] summary {
+      border-bottom: 1px solid transparent; 
+    }
+
+    /* Paragraph / Hidden Text */
+    details p {
+      color: #575757;
+      margin: 0;
+      padding: 0 16px 24px 16px;
+      line-height: 1.6;
+      border-bottom: 1px solid #E5E7EB;
+      
+      /* CSS-only animation for smooth opening */
+      animation: slideDown 0.35s ease-out forwards;
+      transform-origin: top;
+    }
+
+    /* Keyframes for the smooth opening effect */
+    @keyframes slideDown {
+      0% {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+/* AI Generated CSS style for Faq section End */
+
+
 
 /* Footer Section Start */
 footer {
