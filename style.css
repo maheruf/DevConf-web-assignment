@@ -6,7 +6,7 @@
 body {
     font-family: "Inter", sans-serif;
 }
-/* Common styles */
+/* Common Styles */
 
 .container{
     max-width: 1300px;
@@ -23,7 +23,7 @@ body {
 
 }
 
-/* Navbar css start */
+/* Navbar CSS Start */
 .nav{
     display: flex;
     justify-content: space-between;
@@ -51,9 +51,9 @@ body {
     color: #757575;
 }
 
-/* Navbar css end */
+/* Navbar CSS End */
 
-/* hero section css start */
+/* Hero Section CSS Start */
 .hero {
     display: flex;
     align-items:flex-start;
@@ -101,12 +101,12 @@ body {
     padding: 18px 65px;
     border-radius: 12px;
     font-size:18px;
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
-/* hero section css end */
+/* Hero Section CSS End */
 
-/* Speaker section css start */
+/* Speaker Section CSS Start */
 
 .speakers {
     text-align: center;
@@ -127,43 +127,50 @@ body {
 }
 
 .speaker-card{
-    border: 1px solid #dddddd;
-    border-radius: 6px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
     background-color: white;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+
 }
 
 .speaker-card img{
     width: 100%;
+    height: 280px;
+    object-fit: cover;
     display: block
 }
 
 .speaker-info{
-    padding: 8px 35px;
+    padding: 24px;
     text-align: left;
 }
 
 .category {
     color: #2563EB;
-    font-weight: 600;
-    font-size: 12px;
-    margin-top: 4px;
+    font-weight: 700;
+    font-size: 11px;
+    margin-bottom: 8px;
+    margin-top: 0;
 }
 
 .name {
     color: #0D1B2A;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 6px;
 }
 
 .role {
     color: #575757;
     font-size: 14px;
-    margin-top: 6px;
+    margin-top: 0;
 }
     
-/* Speaker section css end */
+/* Speaker Section CSS End */
 
-/* Pricing section css start */
+/* Pricing Section CSS Start */
 
 .pricing-section {
     background-color: #D9D9D9;
@@ -183,7 +190,7 @@ body {
     color: #575757;
     margin-bottom: 48px;
 }
-/* Button section  for pricing card start */
+/* Button Section  For Pricing Card Start */
 .common-btn-pricing {
     width: 100%;
     padding: 12px 0;
@@ -212,7 +219,7 @@ body {
     border: 1px solid #0D1B2A;
 }
 
-/* Button section  for pricing card end  */
+/* Button Section  For Pricing Card End  */
 .pricing-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -241,7 +248,7 @@ body {
     letter-spacing: 1px;
 }
 
-/* Pro plan custom designs */
+/* Pro Plan Custom Designs */
 .featured {
     background:#0D1B2A;
     color:white;
@@ -255,7 +262,7 @@ body {
 .featured .plan-description {
     color: #A0AEC0;
 }
-/* Pro plan custom designs end */
+/* Pro Plan Custom Designs End */
 
 .plan-price {
     font-size: 60px;
@@ -297,19 +304,56 @@ hr {
 
 .features-list li::marker {
     color: #2563EB;
+    list-style-position: inside;
 }
-/* Pricing section css end */
+/* Pricing Section CSS End */
 
-/* Footer contents start */
+/* Footer Section Start */
 footer {
     background-color: #0D1B2A;
     padding: 40px 0;
 }
 
-.footer-content {
+/* Top-Section */
+.footer-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 30px 0 20px;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+/* Full Width Divider */
+.footer-divider {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 0;
+}
+
+/* Bottom-Section: Copyright and Legal */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
 }
 
 .copyright p {
@@ -328,4 +372,4 @@ footer {
     font-size: 14px;
 }
 
-/* Footer contents end */
+/* Footer Contents End */
