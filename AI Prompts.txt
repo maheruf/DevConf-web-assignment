@@ -1,3 +1,5 @@
+Google Gemini used for this prompt.
+
 Act as an expert frontend web developer. I need an elegant "Frequently Asked Questions" section for my DevConf 2026 website.
 Design & Technical Requirements:
 Use the HTML <details> and <summary> tags to create a functional accordion without needing JavaScript.
